@@ -1,0 +1,412 @@
+{
+  "business": [
+    {
+      "keyword": "cent",
+      "score": 0.08256
+    },
+    {
+      "keyword": "bank",
+      "score": 0.0486
+    },
+    {
+      "keyword": "crore",
+      "score": 0.04744
+    },
+    {
+      "keyword": "market",
+      "score": 0.03342
+    },
+    {
+      "keyword": "india",
+      "score": 0.03323
+    },
+    {
+      "keyword": "subscrib",
+      "score": 0.03263
+    },
+    {
+      "keyword": "price",
+      "score": 0.02775
+    },
+    {
+      "keyword": "compani",
+      "score": 0.02762
+    },
+    {
+      "keyword": "nifti",
+      "score": 0.02616
+    },
+    {
+      "keyword": "trade",
+      "score": 0.02515
+    },
+    {
+      "keyword": "rate",
+      "score": 0.02503
+    },
+    {
+      "keyword": "growth",
+      "score": 0.02499
+    },
+    {
+      "keyword": "month",
+      "score": 0.02499
+    },
+    {
+      "keyword": "advertis",
+      "score": 0.02375
+    },
+    {
+      "keyword": "quarter",
+      "score": 0.02245
+    },
+    {
+      "keyword": "point",
+      "score": 0.02112
+    },
+    {
+      "keyword": "rbi",
+      "score": 0.02082
+    },
+    {
+      "keyword": "oil",
+      "score": 0.02068
+    },
+    {
+      "keyword": "share",
+      "score": 0.02013
+    },
+    {
+      "keyword": "inflat",
+      "score": 0.01947
+    }
+  ],
+  "education": [
+    {
+      "keyword": "student",
+      "score": 0.07262
+    },
+    {
+      "keyword": "exam",
+      "score": 0.05857
+    },
+    {
+      "keyword": "univers",
+      "score": 0.04852
+    },
+    {
+      "keyword": "iit",
+      "score": 0.04773
+    },
+    {
+      "keyword": "candid",
+      "score": 0.03455
+    },
+    {
+      "keyword": "result",
+      "score": 0.03448
+    },
+    {
+      "keyword": "institut",
+      "score": 0.03446
+    },
+    {
+      "keyword": "neet",
+      "score": 0.03376
+    },
+    {
+      "keyword": "educ",
+      "score": 0.03297
+    },
+    {
+      "keyword": "class",
+      "score": 0.03242
+    },
+    {
+      "keyword": "admiss",
+      "score": 0.02965
+    },
+    {
+      "keyword": "programm",
+      "score": 0.0292
+    },
+    {
+      "keyword": "websit",
+      "score": 0.0289
+    },
+    {
+      "keyword": "offici",
+      "score": 0.02807
+    },
+    {
+      "keyword": "school",
+      "score": 0.0271
+    },
+    {
+      "keyword": "cuet",
+      "score": 0.0263
+    },
+    {
+      "keyword": "jee",
+      "score": 0.02467
+    },
+    {
+      "keyword": "colleg",
+      "score": 0.02417
+    },
+    {
+      "keyword": "cours",
+      "score": 0.0226
+    },
+    {
+      "keyword": "board",
+      "score": 0.02244
+    }
+  ],
+  "entertainment": [
+    {
+      "keyword": "film",
+      "score": 0.0849
+    },
+    {
+      "keyword": "latest",
+      "score": 0.04863
+    },
+    {
+      "keyword": "actor",
+      "score": 0.04759
+    },
+    {
+      "keyword": "updat",
+      "score": 0.04644
+    },
+    {
+      "keyword": "khan",
+      "score": 0.04641
+    },
+    {
+      "keyword": "news",
+      "score": 0.04401
+    },
+    {
+      "keyword": "bollywood",
+      "score": 0.0317
+    },
+    {
+      "keyword": "kapoor",
+      "score": 0.0301
+    },
+    {
+      "keyword": "entertain",
+      "score": 0.02706
+    },
+    {
+      "keyword": "rukh",
+      "score": 0.02612
+    },
+    {
+      "keyword": "express",
+      "score": 0.02571
+    },
+    {
+      "keyword": "get",
+      "score": 0.02569
+    },
+    {
+      "keyword": "headlin",
+      "score": 0.02569
+    },
+    {
+      "keyword": "shah",
+      "score": 0.02568
+    },
+    {
+      "keyword": "along",
+      "score": 0.02486
+    },
+    {
+      "keyword": "anim",
+      "score": 0.0247
+    },
+    {
+      "keyword": "regist",
+      "score": 0.02462
+    },
+    {
+      "keyword": "indian",
+      "score": 0.02403
+    },
+    {
+      "keyword": "around",
+      "score": 0.02373
+    },
+    {
+      "keyword": "click",
+      "score": 0.02273
+    }
+  ],
+  "sports": [
+    {
+      "keyword": "test",
+      "score": 0.03968
+    },
+    {
+      "keyword": "cricket",
+      "score": 0.03714
+    },
+    {
+      "keyword": "team",
+      "score": 0.03681
+    },
+    {
+      "keyword": "india",
+      "score": 0.03658
+    },
+    {
+      "keyword": "australia",
+      "score": 0.03629
+    },
+    {
+      "keyword": "match",
+      "score": 0.03592
+    },
+    {
+      "keyword": "play",
+      "score": 0.03494
+    },
+    {
+      "keyword": "cup",
+      "score": 0.03431
+    },
+    {
+      "keyword": "game",
+      "score": 0.03014
+    },
+    {
+      "keyword": "player",
+      "score": 0.02676
+    },
+    {
+      "keyword": "win",
+      "score": 0.02584
+    },
+    {
+      "keyword": "final",
+      "score": 0.02553
+    },
+    {
+      "keyword": "leagu",
+      "score": 0.02536
+    },
+    {
+      "keyword": "world",
+      "score": 0.02515
+    },
+    {
+      "keyword": "run",
+      "score": 0.02307
+    },
+    {
+      "keyword": "england",
+      "score": 0.02293
+    },
+    {
+      "keyword": "ball",
+      "score": 0.02204
+    },
+    {
+      "keyword": "wicket",
+      "score": 0.02163
+    },
+    {
+      "keyword": "score",
+      "score": 0.02075
+    },
+    {
+      "keyword": "women",
+      "score": 0.01931
+    }
+  ],
+  "technology": [
+    {
+      "keyword": "appl",
+      "score": 0.03816
+    },
+    {
+      "keyword": "user",
+      "score": 0.03248
+    },
+    {
+      "keyword": "googl",
+      "score": 0.02984
+    },
+    {
+      "keyword": "featur",
+      "score": 0.02793
+    },
+    {
+      "keyword": "app",
+      "score": 0.02552
+    },
+    {
+      "keyword": "compani",
+      "score": 0.02466
+    },
+    {
+      "keyword": "launch",
+      "score": 0.02387
+    },
+    {
+      "keyword": "iphon",
+      "score": 0.02366
+    },
+    {
+      "keyword": "smartphon",
+      "score": 0.02354
+    },
+    {
+      "keyword": "use",
+      "score": 0.02306
+    },
+    {
+      "keyword": "regist",
+      "score": 0.02301
+    },
+    {
+      "keyword": "galaxi",
+      "score": 0.02157
+    },
+    {
+      "keyword": "tech",
+      "score": 0.02079
+    },
+    {
+      "keyword": "stori",
+      "score": 0.02078
+    },
+    {
+      "keyword": "free",
+      "score": 0.02039
+    },
+    {
+      "keyword": "pro",
+      "score": 0.01999
+    },
+    {
+      "keyword": "devic",
+      "score": 0.01927
+    },
+    {
+      "keyword": "phone",
+      "score": 0.0192
+    },
+    {
+      "keyword": "openai",
+      "score": 0.01856
+    },
+    {
+      "keyword": "account",
+      "score": 0.01832
+    }
+  ]
+}

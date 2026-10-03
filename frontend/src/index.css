@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --color-bg: #0B0F0E;
+  --color-bg-secondary: #111715;
+  --color-card: #151C19;
+  --color-card-hover: #1A2420;
+  --color-border: #27342F;
+  --color-primary: #10B981;
+  --color-primary-hover: #34D399;
+  --color-secondary: #14B8A6;
+  --color-secondary-hover: #2DD4BF;
+  --color-accent: #F59E0B;
+  --color-accent-hover: #FBBF24;
+  --color-text-primary: #F3F7F5;
+  --color-text-secondary: #A7B5AE;
+  --color-text-muted: #718079;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #0B0F0E;
+  color: #F3F7F5;
+}
+
+/* Custom scrollbar in Dark Graphite theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0F0E;
+}
+::-webkit-scrollbar-thumb {
+  background: #27342F;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #33433C;
+}

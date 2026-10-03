@@ -1,0 +1,1473 @@
+{
+  "total_corpus_size": 9990,
+  "category_coverage": [
+    {
+      "category": "Business",
+      "count": 2000,
+      "percentage": 20.02,
+      "coverage_level": "Standard Baseline"
+    },
+    {
+      "category": "Entertainment",
+      "count": 2000,
+      "percentage": 20.02,
+      "coverage_level": "Standard Baseline"
+    },
+    {
+      "category": "Sports",
+      "count": 2000,
+      "percentage": 20.02,
+      "coverage_level": "Standard Baseline"
+    },
+    {
+      "category": "Technology",
+      "count": 2000,
+      "percentage": 20.02,
+      "coverage_level": "Standard Baseline"
+    },
+    {
+      "category": "Education",
+      "count": 1990,
+      "percentage": 19.92,
+      "coverage_level": "Standard Baseline"
+    }
+  ],
+  "subtopic_representation": [
+    {
+      "cluster_id": 7,
+      "topic_label": "Enterprise & Industry",
+      "top_terms": [
+        "Disney",
+        "Explores",
+        "Strategic",
+        "Options",
+        "Business"
+      ],
+      "dominant_category": "Business",
+      "article_count": 2524,
+      "representation_percentage": 25.27,
+      "coherence_score": 45.0,
+      "raw_coherence": 0.1514,
+      "coherence_label": "Broad Semantic Dispersion",
+      "coherence_grade": "Low",
+      "representative_articles": [
+        {
+          "article_id": "ART_01851",
+          "headline": "Disney explores strategic options for India business: report",
+          "category": "Business",
+          "similarity": 0.3152
+        },
+        {
+          "article_id": "ART_08112",
+          "headline": "AI buzzes Davos, but CEOs wrestle with how to make it pay",
+          "category": "Technology",
+          "similarity": 0.312
+        },
+        {
+          "article_id": "ART_01828",
+          "headline": "Netweb Technologies sets IPO price band at Rs 475-500/share",
+          "category": "Business",
+          "similarity": 0.3116
+        },
+        {
+          "article_id": "ART_09806",
+          "headline": "Southeast Asia eyes hands-off AI rules, defying EU ambitions",
+          "category": "Technology",
+          "similarity": 0.3067
+        }
+      ],
+      "sample_headlines": [
+        "Disney explores strategic options for India business: report",
+        "AI buzzes Davos, but CEOs wrestle with how to make it pay",
+        "Netweb Technologies sets IPO price band at Rs 475-500/share",
+        "Southeast Asia eyes hands-off AI rules, defying EU ambitions"
+      ],
+      "related_clusters": [
+        {
+          "cluster_id": 13,
+          "label": "Banking & Corporate Finance",
+          "similarity": 0.5516,
+          "similarity_pct": 55.2
+        },
+        {
+          "cluster_id": 0,
+          "label": "Mobile Apps & Features",
+          "similarity": 0.4843,
+          "similarity_pct": 48.4
+        },
+        {
+          "cluster_id": 8,
+          "label": "IITs & Engineering",
+          "similarity": 0.4297,
+          "similarity_pct": 43.0
+        }
+      ],
+      "is_major": true
+    },
+    {
+      "cluster_id": 1,
+      "topic_label": "Cricket & World Cup",
+      "top_terms": [
+        "Women",
+        "Team",
+        "World",
+        "Cup",
+        "Heartache"
+      ],
+      "dominant_category": "Sports",
+      "article_count": 1652,
+      "representation_percentage": 16.54,
+      "coherence_score": 52.5,
+      "raw_coherence": 0.2084,
+      "coherence_label": "Broad Semantic Dispersion",
+      "coherence_grade": "Low",
+      "representative_articles": [
+        {
+          "article_id": "ART_06587",
+          "headline": "Heartache at Cape Town: BCCI should stop the musical chairs of coaches for Indian women\u2019s cricket team",
+          "category": "Sports",
+          "similarity": 0.4861
+        },
+        {
+          "article_id": "ART_07798",
+          "headline": "\u2018Akashdeep, Manpreet, Mandeep and Lalit (Upadhyay) didn\u2019t participate (in shootout). Sometimes, the senior players don\u2019t want to do it\u2019: Ric Charlesworth",
+          "category": "Sports",
+          "similarity": 0.4582
+        },
+        {
+          "article_id": "ART_05946",
+          "headline": "India vs Australia World Cup 2023 final: Sonu Sood congratulates team India in advance, Raveena Tandon says \u2018Go get it\u2019",
+          "category": "Entertainment",
+          "similarity": 0.4479
+        },
+        {
+          "article_id": "ART_07091",
+          "headline": "Women\u2019s T20 World Cup: Shafali Verma and Richa Ghosh, who are Tendulkar and Dhoni fans, will spearhead India against Pakistan",
+          "category": "Sports",
+          "similarity": 0.4369
+        }
+      ],
+      "sample_headlines": [
+        "Heartache at Cape Town: BCCI should stop the musical chairs of coaches for Indian women\u2019s cricket team",
+        "\u2018Akashdeep, Manpreet, Mandeep and Lalit (Upadhyay) didn\u2019t participate (in shootout). Sometimes, the senior players don\u2019t want to do it\u2019: Ric Charlesworth",
+        "India vs Australia World Cup 2023 final: Sonu Sood congratulates team India in advance, Raveena Tandon says \u2018Go get it\u2019",
+        "Women\u2019s T20 World Cup: Shafali Verma and Richa Ghosh, who are Tendulkar and Dhoni fans, will spearhead India against Pakistan"
+      ],
+      "related_clusters": [
+        {
+          "cluster_id": 11,
+          "label": "International Test Cricket",
+          "similarity": 0.7667,
+          "similarity_pct": 76.7
+        },
+        {
+          "cluster_id": 7,
+          "label": "Enterprise & Industry",
+          "similarity": 0.4143,
+          "similarity_pct": 41.4
+        },
+        {
+          "cluster_id": 6,
+          "label": "Cinema & Film Releases",
+          "similarity": 0.3096,
+          "similarity_pct": 31.0
+        }
+      ],
+      "is_major": true
+    },
+    {
+      "cluster_id": 6,
+      "topic_label": "Cinema & Film Releases",
+      "top_terms": [
+        "Ranbir",
+        "Kapoor",
+        "Animal",
+        "Sandeep",
+        "Reddy"
+      ],
+      "dominant_category": "Entertainment",
+      "article_count": 1222,
+      "representation_percentage": 12.23,
+      "coherence_score": 58.8,
+      "raw_coherence": 0.2434,
+      "coherence_label": "Broad Semantic Dispersion",
+      "coherence_grade": "Low",
+      "representative_articles": [
+        {
+          "article_id": "ART_04386",
+          "headline": "Ranbir Kapoor: Some people had issue with Animal but box office proves nothing beyond love for movies",
+          "category": "Entertainment",
+          "similarity": 0.5035
+        },
+        {
+          "article_id": "ART_05646",
+          "headline": "\u2018Ranbir Kapoor a mix of Robert De Niro, Al Pacino and Kamal Haasan\u2019: Animal director Sandeep Reddy Vanga",
+          "category": "Entertainment",
+          "similarity": 0.4812
+        },
+        {
+          "article_id": "ART_05457",
+          "headline": "\u2018I feel like touching Ranbir Kapoor\u2019s feet after seeing him perform in Animal\u2019: Sandeep Reddy Vanga",
+          "category": "Entertainment",
+          "similarity": 0.4743
+        },
+        {
+          "article_id": "ART_05483",
+          "headline": "Sandeep Reddy Vanga answers if Ranbir Kapoor-starrer Animal will earn Rs 1000 cr, says film not for anyone under 18: \u2018Glad it got an A certificate\u2019",
+          "category": "Entertainment",
+          "similarity": 0.4665
+        }
+      ],
+      "sample_headlines": [
+        "Ranbir Kapoor: Some people had issue with Animal but box office proves nothing beyond love for movies",
+        "\u2018Ranbir Kapoor a mix of Robert De Niro, Al Pacino and Kamal Haasan\u2019: Animal director Sandeep Reddy Vanga",
+        "\u2018I feel like touching Ranbir Kapoor\u2019s feet after seeing him perform in Animal\u2019: Sandeep Reddy Vanga",
+        "Sandeep Reddy Vanga answers if Ranbir Kapoor-starrer Animal will earn Rs 1000 cr, says film not for anyone under 18: \u2018Glad it got an A certificate\u2019"
+      ],
+      "related_clusters": [
+        {
+          "cluster_id": 5,
+          "label": "Bollywood & Superstars",
+          "similarity": 0.6074,
+          "similarity_pct": 60.7
+        },
+        {
+          "cluster_id": 12,
+          "label": "Box Office Collections",
+          "similarity": 0.4516,
+          "similarity_pct": 45.2
+        },
+        {
+          "cluster_id": 7,
+          "label": "Enterprise & Industry",
+          "similarity": 0.3629,
+          "similarity_pct": 36.3
+        }
+      ],
+      "is_major": true
+    },
+    {
+      "cluster_id": 8,
+      "topic_label": "IITs & Engineering",
+      "top_terms": [
+        "Iit",
+        "Delhi",
+        "Behind",
+        "Iitians",
+        "Opting"
+      ],
+      "dominant_category": "Education",
+      "article_count": 742,
+      "representation_percentage": 7.43,
+      "coherence_score": 66.6,
+      "raw_coherence": 0.2868,
+      "coherence_label": "Moderate Semantic Cohesion",
+      "coherence_grade": "Moderate",
+      "representative_articles": [
+        {
+          "article_id": "ART_03227",
+          "headline": "Behind IITians opting for non-core jobs are structural issues of JEE Advanced, rigid curriculum, explain IIT-Delhi professors",
+          "category": "Education",
+          "similarity": 0.6228
+        },
+        {
+          "article_id": "ART_03094",
+          "headline": "IIM Lucknow\u2019s new course, IIT news, MBBS\u2019 revised passing marks, G20 and more \u2014 latest education updates",
+          "category": "Education",
+          "similarity": 0.5432
+        },
+        {
+          "article_id": "ART_03760",
+          "headline": "What to expect from campus life at IIT? Former director of IIT Kanpur explains",
+          "category": "Education",
+          "similarity": 0.5379
+        },
+        {
+          "article_id": "ART_03338",
+          "headline": "Beyond the rare Rs 1 crore package, IITs help students contribute to nation building: IIT Delhi professor writes",
+          "category": "Education",
+          "similarity": 0.5378
+        }
+      ],
+      "sample_headlines": [
+        "Behind IITians opting for non-core jobs are structural issues of JEE Advanced, rigid curriculum, explain IIT-Delhi professors",
+        "IIM Lucknow\u2019s new course, IIT news, MBBS\u2019 revised passing marks, G20 and more \u2014 latest education updates",
+        "What to expect from campus life at IIT? Former director of IIT Kanpur explains",
+        "Beyond the rare Rs 1 crore package, IITs help students contribute to nation building: IIT Delhi professor writes"
+      ],
+      "related_clusters": [
+        {
+          "cluster_id": 4,
+          "label": "University Admissions",
+          "similarity": 0.489,
+          "similarity_pct": 48.9
+        },
+        {
+          "cluster_id": 7,
+          "label": "Enterprise & Industry",
+          "similarity": 0.4297,
+          "similarity_pct": 43.0
+        },
+        {
+          "cluster_id": 9,
+          "label": "Board & Entrance Exams",
+          "similarity": 0.3736,
+          "similarity_pct": 37.4
+        }
+      ],
+      "is_major": true
+    },
+    {
+      "cluster_id": 9,
+      "topic_label": "Board & Entrance Exams",
+      "top_terms": [
+        "Neet",
+        "Result",
+        "Cut",
+        "Off",
+        "Class"
+      ],
+      "dominant_category": "Education",
+      "article_count": 704,
+      "representation_percentage": 7.05,
+      "coherence_score": 72.1,
+      "raw_coherence": 0.317,
+      "coherence_label": "Moderate Semantic Cohesion",
+      "coherence_grade": "Moderate",
+      "representative_articles": [
+        {
+          "article_id": "ART_03645",
+          "headline": "NEET UG 2023: Check result date, expected cut-off and counselling schedule \u2014 all FAQs answered",
+          "category": "Education",
+          "similarity": 0.5697
+        },
+        {
+          "article_id": "ART_02234",
+          "headline": "APOSS Class 10th, 12th board exam dates 2024 announced",
+          "category": "Education",
+          "similarity": 0.5402
+        },
+        {
+          "article_id": "ART_03402",
+          "headline": "CBSE Class 10 Supplementary Results 2023: Over 1.27 lakh students appeared, pass percentage at 47.40%",
+          "category": "Education",
+          "similarity": 0.5373
+        },
+        {
+          "article_id": "ART_03593",
+          "headline": "NEET 2023 Result: How to check NEET result at neet.nta.nic.in and cut-off",
+          "category": "Education",
+          "similarity": 0.5337
+        }
+      ],
+      "sample_headlines": [
+        "NEET UG 2023: Check result date, expected cut-off and counselling schedule \u2014 all FAQs answered",
+        "APOSS Class 10th, 12th board exam dates 2024 announced",
+        "CBSE Class 10 Supplementary Results 2023: Over 1.27 lakh students appeared, pass percentage at 47.40%",
+        "NEET 2023 Result: How to check NEET result at neet.nta.nic.in and cut-off"
+      ],
+      "related_clusters": [
+        {
+          "cluster_id": 4,
+          "label": "University Admissions",
+          "similarity": 0.4366,
+          "similarity_pct": 43.7
+        },
+        {
+          "cluster_id": 8,
+          "label": "IITs & Engineering",
+          "similarity": 0.3736,
+          "similarity_pct": 37.4
+        },
+        {
+          "cluster_id": 7,
+          "label": "Enterprise & Industry",
+          "similarity": 0.2618,
+          "similarity_pct": 26.2
+        }
+      ],
+      "is_major": true
+    },
+    {
+      "cluster_id": 13,
+      "topic_label": "Banking & Corporate Finance",
+      "top_terms": [
+        "Zee",
+        "Entertainment",
+        "Forms",
+        "Interim",
+        "Committee"
+      ],
+      "dominant_category": "Business",
+      "article_count": 581,
+      "representation_percentage": 5.82,
+      "coherence_score": 75.7,
+      "raw_coherence": 0.3375,
+      "coherence_label": "Moderate Semantic Cohesion",
+      "coherence_grade": "Moderate",
+      "representative_articles": [
+        {
+          "article_id": "ART_01781",
+          "headline": "Zee Entertainment forms interim committee to run operations",
+          "category": "Business",
+          "similarity": 0.6341
+        },
+        {
+          "article_id": "ART_01266",
+          "headline": "Growth in private corporate sector sales, profit down in first quarter: RBI study",
+          "category": "Business",
+          "similarity": 0.6319
+        },
+        {
+          "article_id": "ART_00744",
+          "headline": "ICICI Bank shares climb over 1% on strong Q2 numbers",
+          "category": "Business",
+          "similarity": 0.6236
+        },
+        {
+          "article_id": "ART_01772",
+          "headline": "Will request GST Council to reconsider 28% tax on online gaming: Rajeev Chandrasekhar",
+          "category": "Business",
+          "similarity": 0.6222
+        }
+      ],
+      "sample_headlines": [
+        "Zee Entertainment forms interim committee to run operations",
+        "Growth in private corporate sector sales, profit down in first quarter: RBI study",
+        "ICICI Bank shares climb over 1% on strong Q2 numbers",
+        "Will request GST Council to reconsider 28% tax on online gaming: Rajeev Chandrasekhar"
+      ],
+      "related_clusters": [
+        {
+          "cluster_id": 7,
+          "label": "Enterprise & Industry",
+          "similarity": 0.5516,
+          "similarity_pct": 55.2
+        },
+        {
+          "cluster_id": 2,
+          "label": "Stock Markets & Indices",
+          "similarity": 0.5235,
+          "similarity_pct": 52.3
+        },
+        {
+          "cluster_id": 12,
+          "label": "Box Office Collections",
+          "similarity": 0.2231,
+          "similarity_pct": 22.3
+        }
+      ],
+      "is_major": true
+    },
+    {
+      "cluster_id": 0,
+      "topic_label": "Mobile Apps & Features",
+      "top_terms": [
+        "Whatsapp",
+        "Features",
+        "Users",
+        "Every",
+        "User"
+      ],
+      "dominant_category": "Technology",
+      "article_count": 525,
+      "representation_percentage": 5.26,
+      "coherence_score": 63.1,
+      "raw_coherence": 0.2674,
+      "coherence_label": "Moderate Semantic Cohesion",
+      "coherence_grade": "Moderate",
+      "representative_articles": [
+        {
+          "article_id": "ART_09548",
+          "headline": "5 new WhatsApp features every user should know",
+          "category": "Technology",
+          "similarity": 0.5181
+        },
+        {
+          "article_id": "ART_09665",
+          "headline": "Android users may soon enjoy a feature Apple users have been enjoying for years",
+          "category": "Technology",
+          "similarity": 0.4747
+        },
+        {
+          "article_id": "ART_08310",
+          "headline": "Microsoft\u2019s ChatGPT alternative: Here are the best ways to use new Copilot app",
+          "category": "Technology",
+          "similarity": 0.4716
+        },
+        {
+          "article_id": "ART_09511",
+          "headline": "5 cool new WhatsApp features that will make your life easier",
+          "category": "Technology",
+          "similarity": 0.4563
+        }
+      ],
+      "sample_headlines": [
+        "5 new WhatsApp features every user should know",
+        "Android users may soon enjoy a feature Apple users have been enjoying for years",
+        "Microsoft\u2019s ChatGPT alternative: Here are the best ways to use new Copilot app",
+        "5 cool new WhatsApp features that will make your life easier"
+      ],
+      "related_clusters": [
+        {
+          "cluster_id": 7,
+          "label": "Enterprise & Industry",
+          "similarity": 0.4843,
+          "similarity_pct": 48.4
+        },
+        {
+          "cluster_id": 14,
+          "label": "Apple & Consumer Tech",
+          "similarity": 0.4123,
+          "similarity_pct": 41.2
+        },
+        {
+          "cluster_id": 10,
+          "label": "Smartphones & Mobile Devices",
+          "similarity": 0.3748,
+          "similarity_pct": 37.5
+        }
+      ],
+      "is_major": true
+    },
+    {
+      "cluster_id": 5,
+      "topic_label": "Bollywood & Superstars",
+      "top_terms": [
+        "Khan",
+        "Shah",
+        "Rukh",
+        "Salman",
+        "Srk"
+      ],
+      "dominant_category": "Entertainment",
+      "article_count": 341,
+      "representation_percentage": 3.41,
+      "coherence_score": 80.9,
+      "raw_coherence": 0.3663,
+      "coherence_label": "High Semantic Tightness",
+      "coherence_grade": "Strong",
+      "representative_articles": [
+        {
+          "article_id": "ART_05649",
+          "headline": "Salman Khan says Shah Rukh Khan is Jai and he is Veeru, suggests Aamir Khan should join the spy universe",
+          "category": "Entertainment",
+          "similarity": 0.651
+        },
+        {
+          "article_id": "ART_04115",
+          "headline": "\u2018Shah Rukh Khan agreed for a retake after 8th AD suggested a few changes,\u2019 Jameel Khan recalls working with \u2018sweet\u2019 SRK",
+          "category": "Entertainment",
+          "similarity": 0.6199
+        },
+        {
+          "article_id": "ART_03993",
+          "headline": "\u2018Shah Rukh Khan is irreplaceable, actors will come and go\u2019: Karan Johar says era of superstars will end with SRK, Salman",
+          "category": "Entertainment",
+          "similarity": 0.6167
+        },
+        {
+          "article_id": "ART_05056",
+          "headline": "Dunki Release Date: Shah Rukh Khan\u2019s film budget, runtime, and cast",
+          "category": "Entertainment",
+          "similarity": 0.5995
+        }
+      ],
+      "sample_headlines": [
+        "Salman Khan says Shah Rukh Khan is Jai and he is Veeru, suggests Aamir Khan should join the spy universe",
+        "\u2018Shah Rukh Khan agreed for a retake after 8th AD suggested a few changes,\u2019 Jameel Khan recalls working with \u2018sweet\u2019 SRK",
+        "\u2018Shah Rukh Khan is irreplaceable, actors will come and go\u2019: Karan Johar says era of superstars will end with SRK, Salman",
+        "Dunki Release Date: Shah Rukh Khan\u2019s film budget, runtime, and cast"
+      ],
+      "related_clusters": [
+        {
+          "cluster_id": 6,
+          "label": "Cinema & Film Releases",
+          "similarity": 0.6074,
+          "similarity_pct": 60.7
+        },
+        {
+          "cluster_id": 12,
+          "label": "Box Office Collections",
+          "similarity": 0.4124,
+          "similarity_pct": 41.2
+        },
+        {
+          "cluster_id": 7,
+          "label": "Enterprise & Industry",
+          "similarity": 0.2241,
+          "similarity_pct": 22.4
+        }
+      ],
+      "is_major": true
+    },
+    {
+      "cluster_id": 4,
+      "topic_label": "University Admissions",
+      "top_terms": [
+        "Cuet",
+        "Participating",
+        "Universities",
+        "University",
+        "Courses"
+      ],
+      "dominant_category": "Education",
+      "article_count": 325,
+      "representation_percentage": 3.25,
+      "coherence_score": 80.4,
+      "raw_coherence": 0.3635,
+      "coherence_label": "High Semantic Tightness",
+      "coherence_grade": "Strong",
+      "representative_articles": [
+        {
+          "article_id": "ART_03087",
+          "headline": "CUET UG Participating Universities: Admissions at Central University of Tamil Nadu, top courses, scholarships and more",
+          "category": "Education",
+          "similarity": 0.7227
+        },
+        {
+          "article_id": "ART_03439",
+          "headline": "CUET UG 2023 Participating Universities: Check top courses, scholarships at Tezpur University",
+          "category": "Education",
+          "similarity": 0.7082
+        },
+        {
+          "article_id": "ART_03966",
+          "headline": "CUET UG 2023 Participating Universities: Visva-Bharati University; admissions, top courses, scholarships, and more",
+          "category": "Education",
+          "similarity": 0.6949
+        },
+        {
+          "article_id": "ART_02926",
+          "headline": "CUET UG Participating Universities: Check admissions, top courses, scholarships at Central University of Andhra Pradesh",
+          "category": "Education",
+          "similarity": 0.678
+        }
+      ],
+      "sample_headlines": [
+        "CUET UG Participating Universities: Admissions at Central University of Tamil Nadu, top courses, scholarships and more",
+        "CUET UG 2023 Participating Universities: Check top courses, scholarships at Tezpur University",
+        "CUET UG 2023 Participating Universities: Visva-Bharati University; admissions, top courses, scholarships, and more",
+        "CUET UG Participating Universities: Check admissions, top courses, scholarships at Central University of Andhra Pradesh"
+      ],
+      "related_clusters": [
+        {
+          "cluster_id": 8,
+          "label": "IITs & Engineering",
+          "similarity": 0.489,
+          "similarity_pct": 48.9
+        },
+        {
+          "cluster_id": 9,
+          "label": "Board & Entrance Exams",
+          "similarity": 0.4366,
+          "similarity_pct": 43.7
+        },
+        {
+          "cluster_id": 7,
+          "label": "Enterprise & Industry",
+          "similarity": 0.2691,
+          "similarity_pct": 26.9
+        }
+      ],
+      "is_major": true
+    },
+    {
+      "cluster_id": 14,
+      "topic_label": "Apple & Consumer Tech",
+      "top_terms": [
+        "Apple",
+        "Sell",
+        "Court",
+        "Iphone",
+        "Pro"
+      ],
+      "dominant_category": "Technology",
+      "article_count": 321,
+      "representation_percentage": 3.21,
+      "coherence_score": 76.5,
+      "raw_coherence": 0.3418,
+      "coherence_label": "Moderate Semantic Cohesion",
+      "coherence_grade": "Moderate",
+      "representative_articles": [
+        {
+          "article_id": "ART_08404",
+          "headline": "Apple can temporarily sell smartwatches after US appeals court win",
+          "category": "Technology",
+          "similarity": 0.588
+        },
+        {
+          "article_id": "ART_08069",
+          "headline": "iPhone 16 Pro and 16 Pro Max: 5 key features you need to know about Apple\u2019s next-gen flagship smartphones",
+          "category": "Technology",
+          "similarity": 0.5859
+        },
+        {
+          "article_id": "ART_08111",
+          "headline": "Apple to sell some watches without blood oxygen feature after US court ruling",
+          "category": "Technology",
+          "similarity": 0.5816
+        },
+        {
+          "article_id": "ART_09743",
+          "headline": "iPhone 15, Watch Ultra 2 and more: What to expect from Apple\u2019s September launch event",
+          "category": "Technology",
+          "similarity": 0.5761
+        }
+      ],
+      "sample_headlines": [
+        "Apple can temporarily sell smartwatches after US appeals court win",
+        "iPhone 16 Pro and 16 Pro Max: 5 key features you need to know about Apple\u2019s next-gen flagship smartphones",
+        "Apple to sell some watches without blood oxygen feature after US court ruling",
+        "iPhone 15, Watch Ultra 2 and more: What to expect from Apple\u2019s September launch event"
+      ],
+      "related_clusters": [
+        {
+          "cluster_id": 0,
+          "label": "Mobile Apps & Features",
+          "similarity": 0.4123,
+          "similarity_pct": 41.2
+        },
+        {
+          "cluster_id": 7,
+          "label": "Enterprise & Industry",
+          "similarity": 0.3844,
+          "similarity_pct": 38.4
+        },
+        {
+          "cluster_id": 10,
+          "label": "Smartphones & Mobile Devices",
+          "similarity": 0.3419,
+          "similarity_pct": 34.2
+        }
+      ],
+      "is_major": true
+    },
+    {
+      "cluster_id": 10,
+      "topic_label": "Smartphones & Mobile Devices",
+      "top_terms": [
+        "Samsung",
+        "Galaxy",
+        "Flagship",
+        "Unpacked",
+        "Oneplus"
+      ],
+      "dominant_category": "Technology",
+      "article_count": 285,
+      "representation_percentage": 2.85,
+      "coherence_score": 77.5,
+      "raw_coherence": 0.3471,
+      "coherence_label": "Moderate Semantic Cohesion",
+      "coherence_grade": "Moderate",
+      "representative_articles": [
+        {
+          "article_id": "ART_08000",
+          "headline": "OnePlus 12 vs Samsung Galaxy S24+: Which flagship phone wins?",
+          "category": "Technology",
+          "similarity": 0.6956
+        },
+        {
+          "article_id": "ART_08169",
+          "headline": "Best Samsung smartphones to consider ahead of Unpacked 2024",
+          "category": "Technology",
+          "similarity": 0.663
+        },
+        {
+          "article_id": "ART_08277",
+          "headline": "Galaxy S24 Ultra: All you need to know about Samsung\u2019s flagship smartphone of 2024",
+          "category": "Technology",
+          "similarity": 0.6065
+        },
+        {
+          "article_id": "ART_08149",
+          "headline": "Galaxy Unpacked 2024: Everything to know about Samsung\u2019s bet on generative AI",
+          "category": "Technology",
+          "similarity": 0.6003
+        }
+      ],
+      "sample_headlines": [
+        "OnePlus 12 vs Samsung Galaxy S24+: Which flagship phone wins?",
+        "Best Samsung smartphones to consider ahead of Unpacked 2024",
+        "Galaxy S24 Ultra: All you need to know about Samsung\u2019s flagship smartphone of 2024",
+        "Galaxy Unpacked 2024: Everything to know about Samsung\u2019s bet on generative AI"
+      ],
+      "related_clusters": [
+        {
+          "cluster_id": 0,
+          "label": "Mobile Apps & Features",
+          "similarity": 0.3748,
+          "similarity_pct": 37.5
+        },
+        {
+          "cluster_id": 14,
+          "label": "Apple & Consumer Tech",
+          "similarity": 0.3419,
+          "similarity_pct": 34.2
+        },
+        {
+          "cluster_id": 7,
+          "label": "Enterprise & Industry",
+          "similarity": 0.3303,
+          "similarity_pct": 33.0
+        }
+      ],
+      "is_major": false
+    },
+    {
+      "cluster_id": 11,
+      "topic_label": "International Test Cricket",
+      "top_terms": [
+        "Eng",
+        "England",
+        "Test",
+        "Ind",
+        "Enter"
+      ],
+      "dominant_category": "Sports",
+      "article_count": 277,
+      "representation_percentage": 2.77,
+      "coherence_score": 83.6,
+      "raw_coherence": 0.3812,
+      "coherence_label": "High Semantic Tightness",
+      "coherence_grade": "Strong",
+      "representative_articles": [
+        {
+          "article_id": "ART_06036",
+          "headline": "IND vs ENG: India enter Bazball Universe with concerns about efficacy of turning tracks",
+          "category": "Sports",
+          "similarity": 0.5745
+        },
+        {
+          "article_id": "ART_06568",
+          "headline": "NZ vs ENG: Henry Brook, Joe Root put England in charge in 2nd Test vs New Zealand",
+          "category": "Sports",
+          "similarity": 0.5545
+        },
+        {
+          "article_id": "ART_06944",
+          "headline": "Ashwin rises to 2nd spot in ICC Test bowlers rankings, Jadeja makes significant gains",
+          "category": "Sports",
+          "similarity": 0.5526
+        },
+        {
+          "article_id": "ART_07006",
+          "headline": "T20 World Cup: England 2 from 2, South Africa back on track",
+          "category": "Sports",
+          "similarity": 0.5302
+        }
+      ],
+      "sample_headlines": [
+        "IND vs ENG: India enter Bazball Universe with concerns about efficacy of turning tracks",
+        "NZ vs ENG: Henry Brook, Joe Root put England in charge in 2nd Test vs New Zealand",
+        "Ashwin rises to 2nd spot in ICC Test bowlers rankings, Jadeja makes significant gains",
+        "T20 World Cup: England 2 from 2, South Africa back on track"
+      ],
+      "related_clusters": [
+        {
+          "cluster_id": 1,
+          "label": "Cricket & World Cup",
+          "similarity": 0.7667,
+          "similarity_pct": 76.7
+        },
+        {
+          "cluster_id": 7,
+          "label": "Enterprise & Industry",
+          "similarity": 0.2788,
+          "similarity_pct": 27.9
+        },
+        {
+          "cluster_id": 6,
+          "label": "Cinema & Film Releases",
+          "similarity": 0.213,
+          "similarity_pct": 21.3
+        }
+      ],
+      "is_major": false
+    },
+    {
+      "cluster_id": 2,
+      "topic_label": "Stock Markets & Indices",
+      "top_terms": [
+        "Sensex",
+        "Nifty",
+        "Buying",
+        "Hit",
+        "Record"
+      ],
+      "dominant_category": "Business",
+      "article_count": 225,
+      "representation_percentage": 2.25,
+      "coherence_score": 98.5,
+      "raw_coherence": 0.5821,
+      "coherence_label": "High Semantic Tightness",
+      "coherence_grade": "Strong",
+      "representative_articles": [
+        {
+          "article_id": "ART_00286",
+          "headline": "Sensex, Nifty hit new record highs on firm global trends, buying in Reliance",
+          "category": "Business",
+          "similarity": 0.7815
+        },
+        {
+          "article_id": "ART_00210",
+          "headline": "Markets gains nearly 20% in 2023; fall on final trading day",
+          "category": "Business",
+          "similarity": 0.78
+        },
+        {
+          "article_id": "ART_00554",
+          "headline": "Sensex, Nifty rebound on fag-end buying; power, utility shares advance",
+          "category": "Business",
+          "similarity": 0.7759
+        },
+        {
+          "article_id": "ART_00506",
+          "headline": "Sensex, Nifty decline on selloff in banking, financial stocks",
+          "category": "Business",
+          "similarity": 0.7707
+        }
+      ],
+      "sample_headlines": [
+        "Sensex, Nifty hit new record highs on firm global trends, buying in Reliance",
+        "Markets gains nearly 20% in 2023; fall on final trading day",
+        "Sensex, Nifty rebound on fag-end buying; power, utility shares advance",
+        "Sensex, Nifty decline on selloff in banking, financial stocks"
+      ],
+      "related_clusters": [
+        {
+          "cluster_id": 13,
+          "label": "Banking & Corporate Finance",
+          "similarity": 0.5235,
+          "similarity_pct": 52.3
+        },
+        {
+          "cluster_id": 7,
+          "label": "Enterprise & Industry",
+          "similarity": 0.3141,
+          "similarity_pct": 31.4
+        }
+      ],
+      "is_major": false
+    },
+    {
+      "cluster_id": 12,
+      "topic_label": "Box Office Collections",
+      "top_terms": [
+        "Box",
+        "Office",
+        "Collection",
+        "Salaar",
+        "Early"
+      ],
+      "dominant_category": "Entertainment",
+      "article_count": 187,
+      "representation_percentage": 1.87,
+      "coherence_score": 98.5,
+      "raw_coherence": 0.5459,
+      "coherence_label": "High Semantic Tightness",
+      "coherence_grade": "Strong",
+      "representative_articles": [
+        {
+          "article_id": "ART_04755",
+          "headline": "Salaar box office collection day 6 early report: Prabhas film set to cross Rs 300 crore mark in India",
+          "category": "Entertainment",
+          "similarity": 0.7891
+        },
+        {
+          "article_id": "ART_04800",
+          "headline": "Salaar box office collection day 5 early report: Prabhas film set to cross Rs 275 crore mark in India",
+          "category": "Entertainment",
+          "similarity": 0.7888
+        },
+        {
+          "article_id": "ART_04829",
+          "headline": "Dunki box office collection Day 5: Shah Rukh Khan\u2019s film crosses Rs 250 crore mark worldwide",
+          "category": "Entertainment",
+          "similarity": 0.7816
+        },
+        {
+          "article_id": "ART_04343",
+          "headline": "Salaar box office collection day 18 early report: Prabhas\u2019 actioner crosses Rs 395 crore mark",
+          "category": "Entertainment",
+          "similarity": 0.7674
+        }
+      ],
+      "sample_headlines": [
+        "Salaar box office collection day 6 early report: Prabhas film set to cross Rs 300 crore mark in India",
+        "Salaar box office collection day 5 early report: Prabhas film set to cross Rs 275 crore mark in India",
+        "Dunki box office collection Day 5: Shah Rukh Khan\u2019s film crosses Rs 250 crore mark worldwide",
+        "Salaar box office collection day 18 early report: Prabhas\u2019 actioner crosses Rs 395 crore mark"
+      ],
+      "related_clusters": [
+        {
+          "cluster_id": 6,
+          "label": "Cinema & Film Releases",
+          "similarity": 0.4516,
+          "similarity_pct": 45.2
+        },
+        {
+          "cluster_id": 5,
+          "label": "Bollywood & Superstars",
+          "similarity": 0.4124,
+          "similarity_pct": 41.2
+        },
+        {
+          "cluster_id": 13,
+          "label": "Banking & Corporate Finance",
+          "similarity": 0.2231,
+          "similarity_pct": 22.3
+        }
+      ],
+      "is_major": false
+    },
+    {
+      "cluster_id": 3,
+      "topic_label": "Reality TV & Celebrities",
+      "top_terms": [
+        "Ankita",
+        "Lokhande",
+        "Bigg",
+        "Boss",
+        "Vicky"
+      ],
+      "dominant_category": "Entertainment",
+      "article_count": 79,
+      "representation_percentage": 0.79,
+      "coherence_score": 98.5,
+      "raw_coherence": 0.5109,
+      "coherence_label": "High Semantic Tightness",
+      "coherence_grade": "Strong",
+      "representative_articles": [
+        {
+          "article_id": "ART_04185",
+          "headline": "Ankita Lokhande\u2019s mother Vandana warns her against talking about Sushant Singh Rajput on Bigg Boss 17: \u2018Vicky ke gharwaale kya sochenge?\u2019",
+          "category": "Entertainment",
+          "similarity": 0.7108
+        },
+        {
+          "article_id": "ART_04674",
+          "headline": "Bigg Boss 17: Ankita Lokhande brings up divorce in conversation with husband Vicky Jain, says \u2018our divorce case\u2026\u2019",
+          "category": "Entertainment",
+          "similarity": 0.6996
+        },
+        {
+          "article_id": "ART_05841",
+          "headline": "Bigg Boss 17: Ankita Lokhande throws \u2018chappal\u2019 at husband Vicky Jain; latter gets called out for holding Sana Raees Khan\u2019s hand",
+          "category": "Entertainment",
+          "similarity": 0.6953
+        },
+        {
+          "article_id": "ART_04129",
+          "headline": "Bigg Boss 17 promo: Karan Johar schools Vicky Jain after his mother insults Ankita Lokhande. Watch",
+          "category": "Entertainment",
+          "similarity": 0.6902
+        }
+      ],
+      "sample_headlines": [
+        "Ankita Lokhande\u2019s mother Vandana warns her against talking about Sushant Singh Rajput on Bigg Boss 17: \u2018Vicky ke gharwaale kya sochenge?\u2019",
+        "Bigg Boss 17: Ankita Lokhande brings up divorce in conversation with husband Vicky Jain, says \u2018our divorce case\u2026\u2019",
+        "Bigg Boss 17: Ankita Lokhande throws \u2018chappal\u2019 at husband Vicky Jain; latter gets called out for holding Sana Raees Khan\u2019s hand",
+        "Bigg Boss 17 promo: Karan Johar schools Vicky Jain after his mother insults Ankita Lokhande. Watch"
+      ],
+      "related_clusters": [
+        {
+          "cluster_id": 5,
+          "label": "Bollywood & Superstars",
+          "similarity": 0.2015,
+          "similarity_pct": 20.1
+        },
+        {
+          "cluster_id": 6,
+          "label": "Cinema & Film Releases",
+          "similarity": 0.2011,
+          "similarity_pct": 20.1
+        }
+      ],
+      "is_major": false
+    }
+  ],
+  "constellation_graph": {
+    "nodes": [
+      {
+        "id": 7,
+        "label": "Global Enterprise & Strategic Mergers",
+        "category": "Business",
+        "article_count": 2524,
+        "percentage": 25.27,
+        "coherence": 45.0,
+        "coherence_grade": "Low",
+        "top_terms": [
+          "Govt",
+          "Crore",
+          "Rbi",
+          "Indian"
+        ],
+        "x": 291.6,
+        "y": 309.5
+      },
+      {
+        "id": 1,
+        "label": "BCCI & Cricket Team Management",
+        "category": "Sports",
+        "article_count": 1652,
+        "percentage": 16.54,
+        "coherence": 52.5,
+        "coherence_grade": "Low",
+        "top_terms": [
+          "Cup",
+          "World",
+          "Watch",
+          "Australia"
+        ],
+        "x": 516.8,
+        "y": 113.3
+      },
+      {
+        "id": 6,
+        "label": "Box Office Releases & Film Criticism",
+        "category": "Entertainment",
+        "article_count": 1222,
+        "percentage": 12.23,
+        "coherence": 58.8,
+        "coherence_grade": "Low",
+        "top_terms": [
+          "Kapoor",
+          "His",
+          "Film",
+          "Her"
+        ],
+        "x": 825.3,
+        "y": 186.8
+      },
+      {
+        "id": 8,
+        "label": "IITs & Higher Engineering Education",
+        "category": "Education",
+        "article_count": 742,
+        "percentage": 7.43,
+        "coherence": 66.6,
+        "coherence_grade": "Moderate",
+        "top_terms": [
+          "Iit",
+          "Students",
+          "Jee",
+          "University"
+        ],
+        "x": 114.2,
+        "y": 127.0
+      },
+      {
+        "id": 9,
+        "label": "National Entrance & Board Examinations",
+        "category": "Education",
+        "article_count": 704,
+        "percentage": 7.05,
+        "coherence": 72.1,
+        "coherence_grade": "Moderate",
+        "top_terms": [
+          "Neet",
+          "Check",
+          "Result",
+          "Exam"
+        ],
+        "x": 123.0,
+        "y": 67.7
+      },
+      {
+        "id": 13,
+        "label": "Corporate Finance & Reserve Bank Policy",
+        "category": "Business",
+        "article_count": 581,
+        "percentage": 5.82,
+        "coherence": 75.7,
+        "coherence_grade": "Moderate",
+        "top_terms": [
+          "Crore",
+          "Profit",
+          "Rbi",
+          "Growth"
+        ],
+        "x": 255.8,
+        "y": 409.1
+      },
+      {
+        "id": 0,
+        "label": "Mobile Applications & Software Features",
+        "category": "Technology",
+        "article_count": 525,
+        "percentage": 5.26,
+        "coherence": 63.1,
+        "coherence_grade": "Moderate",
+        "top_terms": [
+          "Google",
+          "You",
+          "Whatsapp",
+          "Microsoft"
+        ],
+        "x": 399.4,
+        "y": 269.8
+      },
+      {
+        "id": 5,
+        "label": "Bollywood Cinema & Production Gala",
+        "category": "Entertainment",
+        "article_count": 341,
+        "percentage": 3.41,
+        "coherence": 80.9,
+        "coherence_grade": "Strong",
+        "top_terms": [
+          "Khan",
+          "Shah",
+          "Rukh",
+          "His"
+        ],
+        "x": 885.0,
+        "y": 180.8
+      },
+      {
+        "id": 4,
+        "label": "University Admissions & Central Universities",
+        "category": "Education",
+        "article_count": 325,
+        "percentage": 3.25,
+        "coherence": 80.4,
+        "coherence_grade": "Strong",
+        "top_terms": [
+          "University",
+          "Cuet",
+          "Admissions",
+          "Admission"
+        ],
+        "x": 65.4,
+        "y": 50.9
+      },
+      {
+        "id": 14,
+        "label": "Consumer Tech Devices & Hardware Ecosystems",
+        "category": "Technology",
+        "article_count": 321,
+        "percentage": 3.21,
+        "coherence": 76.5,
+        "coherence_grade": "Moderate",
+        "top_terms": [
+          "Apple",
+          "Iphone",
+          "Openai",
+          "Pro"
+        ],
+        "x": 376.0,
+        "y": 328.0
+      },
+      {
+        "id": 10,
+        "label": "Smartphones & Flagship Consumer Tech",
+        "category": "Technology",
+        "article_count": 285,
+        "percentage": 2.85,
+        "coherence": 77.5,
+        "coherence_grade": "Moderate",
+        "top_terms": [
+          "Samsung",
+          "Galaxy",
+          "Oneplus",
+          "Launch"
+        ],
+        "x": 435.9,
+        "y": 325.6
+      },
+      {
+        "id": 11,
+        "label": "International Cricket & Test Series",
+        "category": "Sports",
+        "article_count": 277,
+        "percentage": 2.77,
+        "coherence": 83.6,
+        "coherence_grade": "Strong",
+        "top_terms": [
+          "Test",
+          "England",
+          "Ind",
+          "Australia"
+        ],
+        "x": 491.8,
+        "y": 58.8
+      },
+      {
+        "id": 2,
+        "label": "Stock Markets & Financial Indices",
+        "category": "Business",
+        "article_count": 225,
+        "percentage": 2.25,
+        "coherence": 98.5,
+        "coherence_grade": "Strong",
+        "top_terms": [
+          "Sensex",
+          "Nifty",
+          "Pts",
+          "Markets"
+        ],
+        "x": 277.4,
+        "y": 465.1
+      },
+      {
+        "id": 12,
+        "label": "Box Office Collections & Commercial Cinema",
+        "category": "Entertainment",
+        "article_count": 187,
+        "percentage": 1.87,
+        "coherence": 98.5,
+        "coherence_grade": "Strong",
+        "top_terms": [
+          "Box",
+          "Office",
+          "Collection",
+          "Crore"
+        ],
+        "x": 787.8,
+        "y": 246.3
+      },
+      {
+        "id": 3,
+        "label": "Reality Television & Celebrity News",
+        "category": "Entertainment",
+        "article_count": 79,
+        "percentage": 0.79,
+        "coherence": 98.5,
+        "coherence_grade": "Strong",
+        "top_terms": [
+          "Bigg",
+          "Boss",
+          "Ankita",
+          "Lokhande"
+        ],
+        "x": 626.7,
+        "y": 193.8
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 7,
+        "similarity": 0.4843,
+        "strength": 48.4
+      },
+      {
+        "source": 0,
+        "target": 14,
+        "similarity": 0.4123,
+        "strength": 41.2
+      },
+      {
+        "source": 1,
+        "target": 11,
+        "similarity": 0.7667,
+        "strength": 76.7
+      },
+      {
+        "source": 1,
+        "target": 7,
+        "similarity": 0.4143,
+        "strength": 41.4
+      },
+      {
+        "source": 2,
+        "target": 13,
+        "similarity": 0.5235,
+        "strength": 52.3
+      },
+      {
+        "source": 2,
+        "target": 7,
+        "similarity": 0.3141,
+        "strength": 31.4
+      },
+      {
+        "source": 3,
+        "target": 5,
+        "similarity": 0.2015,
+        "strength": 20.1
+      },
+      {
+        "source": 3,
+        "target": 6,
+        "similarity": 0.2011,
+        "strength": 20.1
+      },
+      {
+        "source": 4,
+        "target": 8,
+        "similarity": 0.489,
+        "strength": 48.9
+      },
+      {
+        "source": 4,
+        "target": 9,
+        "similarity": 0.4366,
+        "strength": 43.7
+      },
+      {
+        "source": 5,
+        "target": 6,
+        "similarity": 0.6074,
+        "strength": 60.7
+      },
+      {
+        "source": 5,
+        "target": 12,
+        "similarity": 0.4124,
+        "strength": 41.2
+      },
+      {
+        "source": 6,
+        "target": 12,
+        "similarity": 0.4516,
+        "strength": 45.2
+      },
+      {
+        "source": 7,
+        "target": 13,
+        "similarity": 0.5516,
+        "strength": 55.2
+      },
+      {
+        "source": 7,
+        "target": 8,
+        "similarity": 0.4297,
+        "strength": 43.0
+      },
+      {
+        "source": 8,
+        "target": 9,
+        "similarity": 0.3736,
+        "strength": 37.4
+      },
+      {
+        "source": 0,
+        "target": 10,
+        "similarity": 0.3748,
+        "strength": 37.5
+      },
+      {
+        "source": 10,
+        "target": 14,
+        "similarity": 0.3419,
+        "strength": 34.2
+      },
+      {
+        "source": 7,
+        "target": 11,
+        "similarity": 0.2788,
+        "strength": 27.9
+      },
+      {
+        "source": 7,
+        "target": 14,
+        "similarity": 0.3844,
+        "strength": 38.4
+      }
+    ],
+    "total_clusters": 15,
+    "total_edges": 20
+  }
+}

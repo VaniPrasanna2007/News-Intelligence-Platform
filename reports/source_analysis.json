@@ -1,0 +1,15 @@
+[
+  {
+    "domain": "indianexpress.com",
+    "article_count": 9990,
+    "percentage": 100.0,
+    "avg_article_length": 1597.9,
+    "category_distribution": {
+      "business": 2000,
+      "entertainment": 2000,
+      "sports": 2000,
+      "technology": 2000,
+      "education": 1990
+    }
+  }
+]

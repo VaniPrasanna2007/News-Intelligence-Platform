@@ -1,0 +1,36 @@
+{
+  "total_articles": 9990,
+  "categories": [
+    "business",
+    "entertainment",
+    "sports",
+    "technology",
+    "education"
+  ],
+  "category_counts": {
+    "business": 2000,
+    "entertainment": 2000,
+    "sports": 2000,
+    "technology": 2000,
+    "education": 1990
+  },
+  "category_percentages": {
+    "business": 20.02,
+    "entertainment": 20.02,
+    "sports": 20.02,
+    "technology": 20.02,
+    "education": 19.92
+  },
+  "text_length_chars": {
+    "min": 265,
+    "max": 15940,
+    "mean": 1597.92,
+    "median": 1111.0
+  },
+  "cleaning_decisions": [
+    "Combined 5 raw datasets: initial total 10000 rows across 5 categories.",
+    "Verified: No exact duplicate rows present.",
+    "Removed 10 articles with duplicate URLs to prevent data duplication.",
+    "Verified: All articles meet minimum text length requirement (>10 characters)."
+  ]
+}

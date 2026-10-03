@@ -1,0 +1,551 @@
+[
+  {
+    "version": 1,
+    "timestamp": "2026-09-29T10:13:35.056487Z",
+    "source": "manual",
+    "corrections_used": 9,
+    "current_production_model": "Naive Bayes",
+    "current_production_val_macro_f1": 0.9861,
+    "candidate_model": "Naive Bayes",
+    "candidate_val_macro_f1": 0.9861,
+    "delta": 0.0021,
+    "threshold": 0.002,
+    "promoted": true,
+    "promotion_status": "PROMOTED",
+    "promotion_reason": "PROMOTED \u2014 Candidate Naive Bayes improved Validation Macro F1 by 0.21% (>= +0.20%) over production baseline.",
+    "validation_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.986,
+        "precision_macro": 0.9862,
+        "recall_macro": 0.986,
+        "f1_macro": 0.9861,
+        "f1_weighted": 0.986
+      },
+      "Logistic Regression": {
+        "accuracy": 0.984,
+        "precision_macro": 0.9841,
+        "recall_macro": 0.984,
+        "f1_macro": 0.984,
+        "f1_weighted": 0.984
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.985,
+        "precision_macro": 0.985,
+        "recall_macro": 0.985,
+        "f1_macro": 0.985,
+        "f1_weighted": 0.9849
+      }
+    },
+    "test_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.977,
+        "precision_macro": 0.9771,
+        "recall_macro": 0.977,
+        "f1_macro": 0.977,
+        "f1_weighted": 0.977
+      },
+      "Logistic Regression": {
+        "accuracy": 0.979,
+        "precision_macro": 0.9791,
+        "recall_macro": 0.979,
+        "f1_macro": 0.979,
+        "f1_weighted": 0.979
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.981,
+        "precision_macro": 0.9811,
+        "recall_macro": 0.981,
+        "f1_macro": 0.981,
+        "f1_weighted": 0.981
+      }
+    }
+  },
+  {
+    "version": 2,
+    "timestamp": "2026-09-29T10:17:36.704925Z",
+    "source": "manual",
+    "corrections_used": 9,
+    "current_production_model": "Logistic Regression",
+    "current_production_val_macro_f1": 0.985,
+    "candidate_model": "Naive Bayes",
+    "candidate_val_macro_f1": 0.9861,
+    "delta": 0.0011,
+    "threshold": 0.002,
+    "promoted": false,
+    "promotion_status": "RETAINED",
+    "promotion_reason": "RETAINED \u2014 Candidate Naive Bayes Validation Macro F1 (0.9861) did not exceed production baseline Logistic Regression (0.9850) by required threshold (+0.0020).",
+    "validation_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.986,
+        "precision_macro": 0.9862,
+        "recall_macro": 0.986,
+        "f1_macro": 0.9861,
+        "f1_weighted": 0.986
+      },
+      "Logistic Regression": {
+        "accuracy": 0.984,
+        "precision_macro": 0.9841,
+        "recall_macro": 0.984,
+        "f1_macro": 0.984,
+        "f1_weighted": 0.984
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.985,
+        "precision_macro": 0.985,
+        "recall_macro": 0.985,
+        "f1_macro": 0.985,
+        "f1_weighted": 0.9849
+      }
+    },
+    "test_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.977,
+        "precision_macro": 0.9771,
+        "recall_macro": 0.977,
+        "f1_macro": 0.977,
+        "f1_weighted": 0.977
+      },
+      "Logistic Regression": {
+        "accuracy": 0.979,
+        "precision_macro": 0.9791,
+        "recall_macro": 0.979,
+        "f1_macro": 0.979,
+        "f1_weighted": 0.979
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.981,
+        "precision_macro": 0.9811,
+        "recall_macro": 0.981,
+        "f1_macro": 0.981,
+        "f1_weighted": 0.981
+      }
+    }
+  },
+  {
+    "version": 3,
+    "timestamp": "2026-09-29T13:13:58.346032Z",
+    "source": "auto",
+    "corrections_used": 10,
+    "current_production_model": "Logistic Regression",
+    "current_production_val_macro_f1": 0.985,
+    "candidate_model": "Naive Bayes",
+    "candidate_val_macro_f1": 0.983,
+    "delta": -0.002,
+    "threshold": 0.002,
+    "promoted": false,
+    "promotion_status": "RETAINED",
+    "promotion_reason": "RETAINED \u2014 Candidate Naive Bayes Validation Macro F1 (0.9830) did not exceed production baseline Logistic Regression (0.9850) by required threshold (+0.0020).",
+    "validation_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.983,
+        "precision_macro": 0.9831,
+        "recall_macro": 0.983,
+        "f1_macro": 0.983,
+        "f1_weighted": 0.983
+      },
+      "Logistic Regression": {
+        "accuracy": 0.982,
+        "precision_macro": 0.9823,
+        "recall_macro": 0.982,
+        "f1_macro": 0.982,
+        "f1_weighted": 0.982
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.982,
+        "precision_macro": 0.9821,
+        "recall_macro": 0.982,
+        "f1_macro": 0.982,
+        "f1_weighted": 0.982
+      }
+    },
+    "test_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.982,
+        "precision_macro": 0.9822,
+        "recall_macro": 0.982,
+        "f1_macro": 0.9821,
+        "f1_weighted": 0.9821
+      },
+      "Logistic Regression": {
+        "accuracy": 0.982,
+        "precision_macro": 0.982,
+        "recall_macro": 0.982,
+        "f1_macro": 0.982,
+        "f1_weighted": 0.982
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.987,
+        "precision_macro": 0.987,
+        "recall_macro": 0.987,
+        "f1_macro": 0.987,
+        "f1_weighted": 0.987
+      }
+    }
+  },
+  {
+    "version": 4,
+    "timestamp": "2026-09-29T13:19:40.728674Z",
+    "source": "auto",
+    "corrections_used": 12,
+    "current_production_model": "Support Vector Machine",
+    "current_production_val_macro_f1": 0.987,
+    "candidate_model": "Support Vector Machine",
+    "candidate_val_macro_f1": 0.987,
+    "delta": 0.002,
+    "threshold": 0.002,
+    "promoted": true,
+    "promotion_status": "PROMOTED",
+    "promotion_reason": "PROMOTED \u2014 Candidate Support Vector Machine improved Validation Macro F1 by 0.20% (>= +0.20%) over production baseline.",
+    "validation_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.983,
+        "precision_macro": 0.983,
+        "recall_macro": 0.983,
+        "f1_macro": 0.983,
+        "f1_weighted": 0.983
+      },
+      "Logistic Regression": {
+        "accuracy": 0.984,
+        "precision_macro": 0.9841,
+        "recall_macro": 0.984,
+        "f1_macro": 0.984,
+        "f1_weighted": 0.984
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.987,
+        "precision_macro": 0.987,
+        "recall_macro": 0.987,
+        "f1_macro": 0.987,
+        "f1_weighted": 0.987
+      }
+    },
+    "test_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.982,
+        "precision_macro": 0.9824,
+        "recall_macro": 0.982,
+        "f1_macro": 0.9821,
+        "f1_weighted": 0.9821
+      },
+      "Logistic Regression": {
+        "accuracy": 0.981,
+        "precision_macro": 0.9813,
+        "recall_macro": 0.981,
+        "f1_macro": 0.9811,
+        "f1_weighted": 0.981
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.981,
+        "precision_macro": 0.9812,
+        "recall_macro": 0.981,
+        "f1_macro": 0.9811,
+        "f1_weighted": 0.981
+      }
+    }
+  },
+  {
+    "version": 5,
+    "timestamp": "2026-09-29T13:25:49.738382Z",
+    "source": "auto",
+    "corrections_used": 13,
+    "current_production_model": "Support Vector Machine",
+    "current_production_val_macro_f1": 0.987,
+    "candidate_model": "Support Vector Machine",
+    "candidate_val_macro_f1": 0.986,
+    "delta": -0.001,
+    "threshold": 0.002,
+    "promoted": false,
+    "promotion_status": "RETAINED",
+    "promotion_reason": "RETAINED \u2014 Candidate Support Vector Machine Validation Macro F1 (0.9860) did not exceed production baseline Support Vector Machine (0.9870) by required threshold (+0.0020).",
+    "validation_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.983,
+        "precision_macro": 0.9831,
+        "recall_macro": 0.983,
+        "f1_macro": 0.983,
+        "f1_weighted": 0.983
+      },
+      "Logistic Regression": {
+        "accuracy": 0.981,
+        "precision_macro": 0.981,
+        "recall_macro": 0.981,
+        "f1_macro": 0.981,
+        "f1_weighted": 0.981
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.986,
+        "precision_macro": 0.986,
+        "recall_macro": 0.986,
+        "f1_macro": 0.986,
+        "f1_weighted": 0.986
+      }
+    },
+    "test_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.984,
+        "precision_macro": 0.9845,
+        "recall_macro": 0.984,
+        "f1_macro": 0.9841,
+        "f1_weighted": 0.9841
+      },
+      "Logistic Regression": {
+        "accuracy": 0.983,
+        "precision_macro": 0.9834,
+        "recall_macro": 0.983,
+        "f1_macro": 0.9831,
+        "f1_weighted": 0.983
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.982,
+        "precision_macro": 0.9823,
+        "recall_macro": 0.982,
+        "f1_macro": 0.9821,
+        "f1_weighted": 0.982
+      }
+    }
+  },
+  {
+    "version": 6,
+    "timestamp": "2026-09-29T14:01:23.713791Z",
+    "source": "manual",
+    "corrections_used": 14,
+    "current_production_model": "Support Vector Machine",
+    "current_production_val_macro_f1": 0.987,
+    "candidate_model": "Naive Bayes",
+    "candidate_val_macro_f1": 0.9821,
+    "delta": -0.0049,
+    "threshold": 0.002,
+    "promoted": false,
+    "promotion_status": "RETAINED",
+    "promotion_reason": "RETAINED \u2014 Candidate Naive Bayes Validation Macro F1 (0.9821) did not exceed production baseline Support Vector Machine (0.9870) by required threshold (+0.0020).",
+    "validation_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.982,
+        "precision_macro": 0.9823,
+        "recall_macro": 0.982,
+        "f1_macro": 0.9821,
+        "f1_weighted": 0.982
+      },
+      "Logistic Regression": {
+        "accuracy": 0.98,
+        "precision_macro": 0.9801,
+        "recall_macro": 0.98,
+        "f1_macro": 0.98,
+        "f1_weighted": 0.98
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.982,
+        "precision_macro": 0.982,
+        "recall_macro": 0.982,
+        "f1_macro": 0.982,
+        "f1_weighted": 0.982
+      }
+    },
+    "test_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.981,
+        "precision_macro": 0.9812,
+        "recall_macro": 0.981,
+        "f1_macro": 0.981,
+        "f1_weighted": 0.981
+      },
+      "Logistic Regression": {
+        "accuracy": 0.982,
+        "precision_macro": 0.9821,
+        "recall_macro": 0.982,
+        "f1_macro": 0.982,
+        "f1_weighted": 0.982
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.983,
+        "precision_macro": 0.983,
+        "recall_macro": 0.983,
+        "f1_macro": 0.983,
+        "f1_weighted": 0.983
+      }
+    }
+  },
+  {
+    "version": 7,
+    "timestamp": "2026-09-29T14:55:43.559537Z",
+    "source": "auto",
+    "corrections_used": 15,
+    "current_production_model": "Support Vector Machine",
+    "current_production_val_macro_f1": 0.985,
+    "candidate_model": "Support Vector Machine",
+    "candidate_val_macro_f1": 0.982,
+    "delta": -0.003,
+    "threshold": 0.002,
+    "promoted": false,
+    "promotion_status": "RETAINED",
+    "promotion_reason": "RETAINED \u2014 Candidate Support Vector Machine Validation Macro F1 (0.9820) did not exceed production baseline Support Vector Machine (0.9850) by required threshold (+0.0020).",
+    "validation_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.979,
+        "precision_macro": 0.9796,
+        "recall_macro": 0.979,
+        "f1_macro": 0.9791,
+        "f1_weighted": 0.9791
+      },
+      "Logistic Regression": {
+        "accuracy": 0.978,
+        "precision_macro": 0.9782,
+        "recall_macro": 0.978,
+        "f1_macro": 0.978,
+        "f1_weighted": 0.978
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.982,
+        "precision_macro": 0.9821,
+        "recall_macro": 0.982,
+        "f1_macro": 0.982,
+        "f1_weighted": 0.982
+      }
+    },
+    "test_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.984,
+        "precision_macro": 0.984,
+        "recall_macro": 0.984,
+        "f1_macro": 0.984,
+        "f1_weighted": 0.984
+      },
+      "Logistic Regression": {
+        "accuracy": 0.982,
+        "precision_macro": 0.9821,
+        "recall_macro": 0.982,
+        "f1_macro": 0.982,
+        "f1_weighted": 0.982
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.986,
+        "precision_macro": 0.9861,
+        "recall_macro": 0.986,
+        "f1_macro": 0.986,
+        "f1_weighted": 0.986
+      }
+    }
+  },
+  {
+    "version": 8,
+    "timestamp": "2026-09-30T14:28:27.182088Z",
+    "source": "manual",
+    "corrections_used": 9,
+    "current_production_model": "Support Vector Machine",
+    "current_production_val_macro_f1": 0.985,
+    "candidate_model": "Logistic Regression",
+    "candidate_val_macro_f1": 0.981,
+    "delta": -0.004,
+    "threshold": 0.002,
+    "promoted": false,
+    "promotion_status": "RETAINED",
+    "promotion_reason": "RETAINED \u2014 Candidate Logistic Regression Validation Macro F1 (0.9810) did not exceed production baseline Support Vector Machine (0.9850) by required threshold (+0.0020).",
+    "validation_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.98,
+        "precision_macro": 0.9801,
+        "recall_macro": 0.98,
+        "f1_macro": 0.98,
+        "f1_weighted": 0.98
+      },
+      "Logistic Regression": {
+        "accuracy": 0.981,
+        "precision_macro": 0.9811,
+        "recall_macro": 0.981,
+        "f1_macro": 0.981,
+        "f1_weighted": 0.981
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.98,
+        "precision_macro": 0.9799,
+        "recall_macro": 0.98,
+        "f1_macro": 0.98,
+        "f1_weighted": 0.9799
+      }
+    },
+    "test_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.982,
+        "precision_macro": 0.9827,
+        "recall_macro": 0.982,
+        "f1_macro": 0.9821,
+        "f1_weighted": 0.9821
+      },
+      "Logistic Regression": {
+        "accuracy": 0.983,
+        "precision_macro": 0.9831,
+        "recall_macro": 0.983,
+        "f1_macro": 0.983,
+        "f1_weighted": 0.983
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.986,
+        "precision_macro": 0.9861,
+        "recall_macro": 0.986,
+        "f1_macro": 0.986,
+        "f1_weighted": 0.986
+      }
+    }
+  },
+  {
+    "version": 9,
+    "timestamp": "2026-09-30T14:29:10.074546Z",
+    "source": "manual",
+    "corrections_used": 9,
+    "current_production_model": "Support Vector Machine",
+    "current_production_val_macro_f1": 0.985,
+    "candidate_model": "Logistic Regression",
+    "candidate_val_macro_f1": 0.981,
+    "delta": -0.004,
+    "threshold": 0.002,
+    "promoted": false,
+    "promotion_status": "RETAINED",
+    "promotion_reason": "RETAINED \u2014 Candidate Logistic Regression Validation Macro F1 (0.9810) did not exceed production baseline Support Vector Machine (0.9850) by required threshold (+0.0020).",
+    "validation_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.98,
+        "precision_macro": 0.9801,
+        "recall_macro": 0.98,
+        "f1_macro": 0.98,
+        "f1_weighted": 0.98
+      },
+      "Logistic Regression": {
+        "accuracy": 0.981,
+        "precision_macro": 0.9811,
+        "recall_macro": 0.981,
+        "f1_macro": 0.981,
+        "f1_weighted": 0.981
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.98,
+        "precision_macro": 0.9799,
+        "recall_macro": 0.98,
+        "f1_macro": 0.98,
+        "f1_weighted": 0.9799
+      }
+    },
+    "test_metrics": {
+      "Naive Bayes": {
+        "accuracy": 0.982,
+        "precision_macro": 0.9827,
+        "recall_macro": 0.982,
+        "f1_macro": 0.9821,
+        "f1_weighted": 0.9821
+      },
+      "Logistic Regression": {
+        "accuracy": 0.983,
+        "precision_macro": 0.9831,
+        "recall_macro": 0.983,
+        "f1_macro": 0.983,
+        "f1_weighted": 0.983
+      },
+      "Support Vector Machine": {
+        "accuracy": 0.986,
+        "precision_macro": 0.9861,
+        "recall_macro": 0.986,
+        "f1_macro": 0.986,
+        "f1_weighted": 0.986
+      }
+    }
+  }
+]

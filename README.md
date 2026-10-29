@@ -1,4 +1,4 @@
-#News Intelligence Platform & Command Center
+# News Intelligence Platform & Command Center
 
 An enterprise-grade, full-stack Natural Language Processing (NLP) intelligence platform transforming raw news text and documents into multi-dimensional news telemetry. Powered by calibrated statistical classifiers (98.5% test accuracy across 5 canonical domains), semantic vector similarity search against 9,990 indexed articles, automated story family clustering, novelty detection, structure profiling, and human-in-the-loop active feedback.
 

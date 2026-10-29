@@ -12,9 +12,7 @@ import {
   CheckCircle2,
   Trash2,
   FileUp,
-  ExternalLink,
-  Tag,
-  Check
+  ExternalLink
 } from 'lucide-react';
 import { predictSingle, extractArticlePreview } from '../services/api';
 import { getCategoryStyle } from '../utils/categoryColors';

@@ -7,14 +7,9 @@ import {
   Sparkles,
   Clock,
   Radio,
-  CheckCircle2,
   AlertCircle,
   Filter,
-  PieChart as PieIcon,
-  Layers,
-  FileText,
-  Upload,
-  Globe
+  PieChart as PieIcon
 } from 'lucide-react';
 import {
   PieChart,

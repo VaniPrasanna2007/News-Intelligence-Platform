@@ -3,10 +3,7 @@ import {
   Menu,
   X,
   Terminal,
-  LayoutDashboard,
-  Share2,
-  LineChart,
-  UploadCloud
+  LayoutDashboard
 } from 'lucide-react';
 
 export default function Sidebar({ activeTab, setActiveTab }) {
@@ -15,10 +12,7 @@ export default function Sidebar({ activeTab, setActiveTab }) {
 
   const navItems = [
     { id: 'command_center', label: 'Command Center', icon: Terminal, badge: 'Core', highlight: true },
-    { id: 'overview', label: 'Live Overview', icon: LayoutDashboard },
-    { id: 'clusters', label: 'Clusters & Constellation', icon: Share2 },
-    { id: 'evaluation', label: 'Model Evaluation', icon: LineChart },
-    { id: 'batch', label: 'Batch Classification', icon: UploadCloud }
+    { id: 'overview', label: 'Live Overview', icon: LayoutDashboard }
   ];
 
   // Handle click outside to close temporary drawer

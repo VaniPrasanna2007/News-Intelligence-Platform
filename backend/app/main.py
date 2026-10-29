@@ -48,17 +48,6 @@ async def add_pna_header(request, call_next):
 # Include API Router
 app.include_router(api_router)
 
-from app.ml.retrain_service import retrain_manager
-
-@app.on_event("startup")
-def startup_event():
-    """Start 3-minute automatic model retraining background scheduler."""
-    retrain_manager.start_scheduler()
-
-@app.on_event("shutdown")
-def shutdown_event():
-    """Gracefully stop background scheduler on app shutdown."""
-    retrain_manager.stop_scheduler()
 
 @app.get("/")
 def root():

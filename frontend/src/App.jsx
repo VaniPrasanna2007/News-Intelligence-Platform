@@ -3,11 +3,6 @@ import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import CommandCenterPage from './pages/CommandCenterPage';
 import OverviewPage from './pages/OverviewPage';
-import ClustersConstellationPage from './pages/ClustersConstellationPage';
-import CategoriesPage from './pages/CategoriesPage';
-import ClassifyPage from './pages/ClassifyPage';
-import BatchPage from './pages/BatchPage';
-import EvaluationPage from './pages/EvaluationPage';
 import LandingPage from './pages/LandingPage';
 import InternalBackground from './components/InternalBackground';
 
@@ -19,9 +14,7 @@ import {
   getModelPerformance,
   getKeywords,
   getRecentPredictions,
-  getStatistics,
-  getReviewStats,
-  getCategoryConstellation
+  getStatistics
 } from './services/api';
 
 export default function App() {
@@ -37,16 +30,10 @@ export default function App() {
   const [keywords, setKeywords] = useState(null);
   const [recentPredictions, setRecentPredictions] = useState([]);
   const [stats, setStats] = useState(null);
-  const [reviewStats, setReviewStats] = useState(null);
-  const [constellationData, setConstellationData] = useState(null);
   const [analysisData, setAnalysisData] = useState(null);
-  const [activeSecondaryTab, setActiveSecondaryTab] = useState('01');
-  const [isRefreshing, setIsRefreshing] = useState(false);
-
   const [healthStatus, setHealthStatus] = useState('connecting'); // 'connecting' | 'connected' | 'offline'
 
   const loadAllData = async () => {
-    setIsRefreshing(true);
     try {
       const [
         healthData,
@@ -56,9 +43,7 @@ export default function App() {
         perfData,
         kwData,
         predData,
-        statsData,
-        reviewData,
-        constellationRes
+        statsData
       ] = await Promise.allSettled([
         getHealth(),
         getDatasetSummary(),
@@ -67,9 +52,7 @@ export default function App() {
         getModelPerformance(),
         getKeywords(),
         getRecentPredictions(50),
-        getStatistics(),
-        getReviewStats(),
-        getCategoryConstellation()
+        getStatistics()
       ]);
 
       if (healthData.status === 'fulfilled' && (healthData.value?.status === 'healthy' || healthData.value?.status === 'degraded')) {
@@ -87,20 +70,16 @@ export default function App() {
       if (kwData.status === 'fulfilled') setKeywords(kwData.value);
       if (predData.status === 'fulfilled') setRecentPredictions(predData.value);
       if (statsData.status === 'fulfilled') setStats(statsData.value);
-      if (reviewData.status === 'fulfilled') setReviewStats(reviewData.value);
-      if (constellationRes.status === 'fulfilled') setConstellationData(constellationRes.value);
     } catch (err) {
-      console.error('Error fetching dashboard state:', err);
+      console.error('Error fetching platform state:', err);
       setHealthStatus('offline');
-    } finally {
-      setIsRefreshing(false);
     }
   };
 
   useEffect(() => {
     loadAllData();
 
-    // Heartbeat health checker and live prediction activity poller
+    // Poller for live telemetry and recent predictions
     const interval = setInterval(async () => {
       try {
         const [res, recentRes, statsRes] = await Promise.allSettled([
@@ -164,7 +143,7 @@ export default function App() {
       errorMessage: ''
     });
 
-    // Optimistically update recent predictions so newest is first without duplicates
+    // Optimistically update recent predictions
     setRecentPredictions((prev) => {
       const rest = (prev || []).filter((p) => p.prediction_id !== newPred.prediction_id);
       return [newPred, ...rest];
@@ -209,7 +188,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen relative flex flex-col">
-      {/* Global Static Reference Background Layer for Internal Pages */}
+      {/* Background Layer */}
       <InternalBackground />
 
       {/* Top Navigation */}
@@ -221,7 +200,7 @@ export default function App() {
 
       {/* Main Container */}
       <div className="flex-1 flex overflow-hidden relative z-10">
-        {/* Navigation Sidebar */}
+        {/* Navigation Sidebar (Command Center & Live Overview only) */}
         <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
 
         {/* Dynamic Page Content */}
@@ -230,14 +209,9 @@ export default function App() {
             <CommandCenterPage
               analysisData={analysisData}
               setAnalysisData={setAnalysisData}
-              constellationData={constellationData}
-              reviewStats={reviewStats}
-              onReviewSubmitted={() => getReviewStats().then(setReviewStats).catch(() => {})}
               onAnalysisStart={handleAnalysisStart}
               onAnalysisSuccess={handleAnalysisSuccess}
               onAnalysisError={handleAnalysisError}
-              activeSecondaryTab={activeSecondaryTab}
-              setActiveSecondaryTab={setActiveSecondaryTab}
             />
           )}
 
@@ -247,42 +221,12 @@ export default function App() {
               categories={categories}
               models={models}
               performance={performance}
-              keywords={keywords}
               recentPredictions={recentPredictions}
               stats={stats}
               health={health}
               liveActivity={liveActivity}
               onNavigateToClassify={() => setActiveTab('command_center')}
             />
-          )}
-
-          {activeTab === 'clusters' && (
-            <ClustersConstellationPage
-              constellationData={constellationData}
-            />
-          )}
-
-          {activeTab === 'evaluation' && (
-            <EvaluationPage
-              performance={performance}
-              models={models}
-            />
-          )}
-
-          {activeTab === 'categories' && (
-            <CategoriesPage
-              summary={summary}
-              categories={categories}
-              keywords={keywords}
-            />
-          )}
-
-          {activeTab === 'classify' && (
-            <ClassifyPage onPredictionSuccess={handlePredictionSuccess} />
-          )}
-
-          {activeTab === 'batch' && (
-            <BatchPage />
           )}
         </main>
       </div>
